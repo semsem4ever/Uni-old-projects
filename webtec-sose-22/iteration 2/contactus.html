@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+  
+
+
+    
+   <body>
+      <header>
+         <p style="background:#65A693; color:white;  font-size: 10px; padding: 2px 4px; text-align: center; position:relative; margin-top: 0%;">
+         📦New: The Pomelodi shipping flat rate for only 17€ | ♻️ Brings back - Save 50 cents per pack</p>
+       
+         <div class="logo">
+            <a href="startseite.html"><img src="Logo.gif" alt="img-fluid" width="100" height="100">
+            </a>
+            
+      </header>
+      <div>
+
+         <table class="kontakt-table">
+ 
+             <form id="kontakt-form" onsubmit="checkAndSubmitKontaktForm(event)">
+ 
+                 <tr>
+ 
+                     <td>
+ 
+                         <label for="vorname">Name</label>
+ 
+                     </td>
+ 
+                     <td>
+ 
+                         <input type="text" id="vorname" name="vorname" maxlength="40" minlength="2"
+                           // @ts-ignoreonkeypress="return /[a-zA-ZüÜöÖäÄß]/i.test(event.key)" placeholder="Vorname">
+ 
+                     </td>
+ 
+                 </tr>
+ 
+                 <tr>
+ 
+                     <td>
+ 
+                         <label for="nachname">Surmane</label>
+ 
+                     </td>
+ 
+                     <td>
+ 
+                         <input type="text" id="nachname" name="nachname" maxlength="40" minlength="2"
+                         // @ts-ignoreonkeypress="return /[a-zA-ZüÜöÖäÄß]/i.test(event.key)" placeholder="Nachname">
+ 
+                     </td>
+ 
+                 </tr>
+ 
+                 <tr>
+ 
+                     <td>
+ 
+                         <label for="email">Email *</label>
+ 
+                     </td>
+ 
+                     <td>
+ 
+                         <input type="email" id="email" name="email" maxlength="40" required placeholder="Email">
+ 
+                     </td>
+ 
+                 </tr>
+ 
+                 <tr>
+ 
+                     <td>
+ 
+                         <label for="kundennummer">Costumer Number</label>
+ 
+                     </td>
+ 
+                     <td id="kundennummer-td">
+ 
+                         <input type="text" id="kundennummer" name="kundennummer" minlength="8" maxlength="8" placeholder="Kundennummer">
+ 
+                     </td>
+ 
+                 </tr>
+ 
+                 <tr>
+ 
+                     <td>
+ 
+                         <label for="betreff">Subject *</label>
+ 
+                     </td>
+ 
+                     <td>
+ 
+                         <input type="text" id="betreff" name="betreff" maxlength="40" required placeholder="Betreff">
+ 
+                     </td>
+ 
+                 </tr>
+ 
+                 <tr>
+ 
+                     <td>
+ 
+                         <label for="kategorie">Select</label>
+ 
+                     </td>
+ 
+                     <td>
+ 
+                         <select name="kategorie" id="kategorie">
+ 
+                             <option value="1">Special Question</option>
+ 
+                             <option value="2">Order a Gift</option>
+ 
+                             <option value="3">Return an Item</option>
+ 
+                             <option value="4">Privacy Policy</option>
+ 
+                         </select>
+ 
+                     </td>
+ 
+                 </tr>
+ 
+                 <tr>
+ 
+                     <td>
+ 
+                         <label for="beschreibung">Description *</label>
+ 
+                     </td>
+ 
+                     <td>
+ 
+                         <textarea  id="beschreibung" name="beschreibung" rows="15" cols="40" style="border-radius:10px;"  maxlength="400" required placeholder="Beschreibung"></textarea>
+ 
+                     </td>
+ 
+                 </tr>
+ 
+                 <tr>
+ 
+                     <td>
+ 
+                         <button onclick="deleteForm(event)">Delete</button>
+ 
+                     </td>
+ 
+                     <td>
+ 
+                         <button>Send</button>
+ 
+                     </td>
+ 
+                 </tr>
+ 
+                 <tr>
+ 
+                     <td>
+ 
+                         * Required
+ 
+                     </td>
+ 
+                 </tr>
+ 
+             </form>
+ 
+         </table>
+ 
+     </div>
+ 
+   </body>
+           
+
+       
+           
+
+  <script src="java.js"></script>
+ 
+
+<!--Footer-->
+<footer 
+id="footer-copyright">
+   <p1>&copy; POMELODI, Ltd. All Rights Reserved.</p1>
+   <ul class="socials">
+     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+     <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+     <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+     <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+  </ul>
+  <div class="footer-menu">
+     <ul class="f-menu">
+        <li><a href="#">100%
+           VEGAN &#127793;</a></li>
+        <li><a href="#">ETHICAL
+           SHOPPING&#128076;</a></li>
+        <li><a href="#">HANDMADE WITH LOVE<br> &#128154;</a></li>
+        <li><a href="#">WE FIGHT AGAINST ANIMAL EXPERIMENTS🐇</a></li>
+     </ul>
+    </div>
+</footer>
+
+  
+
+
+
+  
+   
+   
+</html>
+

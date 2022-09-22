@@ -1,0 +1,340 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+}
+.search-container input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border-color: #65A693;
+}
+
+
+
+.container {
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+
+
+    
+
+.productsimg {
+  width: 60%;
+  margin-top: 3cm;
+  
+  
+}
+
+
+.text {
+  font-size: 8px;
+  text-align:left;
+  letter-spacing: 2px;
+  line-height: 1.5cm;
+  
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: auto;
+}
+p{
+
+  text-align:center;
+  margin-left: 2px;
+  margin-right: 20px;
+  font-size: 16px;
+  background-color: #F2A0A7;
+  margin-top: 2cm;
+  
+}
+h2{
+  text-align:left;
+  margin-left: 12.6cm;
+  font-size: 16px;
+  margin-top: 3cm;
+}
+
+nav{
+  
+margin-top:0px;
+margin-bottom: 0px;
+
+}
+nav a {
+padding: 50px;
+text-decoration: none;
+color:#65A693;
+}
+nav a:visited {
+  color: rgb(7, 111, 25);
+}
+
+/* mouse over link */
+nav a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+nav a:active {
+  color: rgb(222, 153, 104);
+}
+
+
+
+
+figure{
+  display:inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  
+  }
+
+.nav a.active {
+  background-color:#D9863D;
+  color: white;
+}
+.logo {
+  text-align: center;
+  transition-duration:  2s;
+}
+.logo :hover{
+  transform: translate(15px,0px);
+}
+
+
+ 
+  
+
+section {
+  margin-top: 2cm;
+  text-align:center;
+  
+}
+
+.shop{
+  margin-top: 2cm;
+
+}
+.shop-content{
+  display:flex;
+  
+  gap: 0.7cm;
+  
+}
+.product-box{
+  position:relative;
+
+  
+}
+.product-box:hover {
+  padding: 10px;
+  
+  transition: 0.4s;
+}
+
+.product-img{
+  
+  height:auto;
+
+}
+
+.product-title{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #65A693;
+  text-transform: uppercase;
+  
+}
+
+button{
+
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  background:white;
+  margin-right: auto;
+  outline: none;
+  
+  
+  
+  
+
+
+}
+button:hover {
+
+background-color: #65A693
+}
+
+
+
+
+
+
+
+.rate {
+  float: left;
+  height: 46px;
+  padding: 0 10px;
+}
+.rate:not(:checked) > input {
+  position:absolute;
+  top:-9999px;
+}
+.rate:not(:checked) > label {
+  float:right;
+  width:1em;
+  overflow:hidden;
+  white-space:nowrap;
+  cursor:pointer;
+  font-size:30px;
+  color:#ccc;
+}
+.rate:not(:checked) > label:before {
+  content: '★ ';
+}
+.rate > input:checked ~ label {
+  color: #f506b9;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+  color: #ff00bf;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+  color: ff00bf;
+}
+
+
+
+.impressum li{
+ font-style:oblique ;
+margin-top: 1cm;
+margin-bottom: 2cm;
+
+}
+ 
+
+
+
+
+footer {
+  position:relative;
+  
+  bottom: 0;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  
+  background-color: #65A693;
+  color: #fff;
+}
+
+.socials{
+  list-style: none;
+  display: flex;
+  align-items:center;
+  
+  
+  
+}
+
+.socials li{
+  margin-bottom: 5px;
+  
+  
+  
+}
+
+.socials a{
+ 
+  color: #fff;
+  
+  padding: 5px;
+ 
+  
+}
+
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+  transition: color .4s ease;
+}
+
+.socials a:hover i{
+  color: rgb(25, 211, 189);
+}
+
+
+
+.footer-menu ul{
+  display:flex;
+  justify-content:center;
+  
+}
+
+.footer-menu ul li{
+padding-right: 10px;
+display: flex;
+font-size:x-small;
+}
+
+.footer-menu ul li a{
+  color: #fefefe;
+  text-decoration: none;
+}
+
+.footer-menu ul li a:hover{
+  color: #dab7db;
+}
+
+.kontakt-table {
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  height: 110vh;
+
+  width: 55%;
+
+}
+
+.kontakt-cell{
+
+  text-align: left;
+
+}
+
+.kontakt-table td input, select{
+
+  width: 100%;
+
+  height: 70%;
+
+  border-radius:10px;
+
+}
+
+
+
+#kundennummer-td {
+
+  color: rgb(233, 11, 11);
+
+}
