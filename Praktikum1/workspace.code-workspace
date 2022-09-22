@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Projekt1"
+		},
+		{
+			"path": "..\\Metalmüller"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Praktikum1"
+	}
+}

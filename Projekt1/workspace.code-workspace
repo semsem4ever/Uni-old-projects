@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\Halloworld"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\webtec-sose-22"
+		},
+		{
+			"path": "..\\webtec-sose-22-main"
+		},
+		{
+			"path": "..\\Shaif Arfan"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Shaif Arfan"
+	}
+}
